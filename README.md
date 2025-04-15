@@ -19,3 +19,8 @@ In Terminal:
 mkdir -p ~/Library/LaunchAgents
 
 cd ~/Library/LaunchAgents
+
+
+2. Create the LaunchAgent .plist
+
+nano ~/Library/LaunchAgents/com.agentlock.start.plist
