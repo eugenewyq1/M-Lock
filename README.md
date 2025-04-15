@@ -11,4 +11,5 @@ Create a LaunchAgent
 In Terminal:
 
 mkdir -p ~/Library/LaunchAgents
+
 cd ~/Library/LaunchAgents
