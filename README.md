@@ -55,7 +55,9 @@ cd ~/Library/LaunchAgents
 ```bash
 nano ~/Library/LaunchAgents/com.agentlock.start.plist
 ```
-
+```bash
+Replace YOUR_USERNAME with your actual macOS username
+```
 3.3 Load the LaunchAgent
 ```bash
 launchctl load ~/Library/LaunchAgents/com.agentlock.start.plist
