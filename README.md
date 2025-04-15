@@ -39,6 +39,7 @@ nano ~/app_lock.swift
 chmod +x ~/app_lock.swift
 ```
 3. Create a LaunchAgent
+
 3.1 Go to Your LaunchAgents Folder
 In Terminal:
 ```bash
