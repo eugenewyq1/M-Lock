@@ -1,6 +1,6 @@
 # MacOS-Agent-App-lock
 
-✅  Launches Agent-TARS
+✅  Launches Agent
 
 ✅  Monitors if it’s frontmost
 
@@ -8,7 +8,7 @@
 
 ✅  Prompts for a password to unlock
 
-✅  Prevents closing or minimizing the password panel
+x  Prevents closing or minimizing the password panel (work in progress)
 
 1. Save the Swift script you were given to your home folder:
 ```bash
