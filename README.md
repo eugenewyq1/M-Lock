@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/a8215f44-07f9-451c-b934-7138ac43e5cb
 # M-Lock
 First MacOS-Agent-App-lock powered by swift®
 
-# ⚠️ Environment was tested on a 1 core 16 thread MacOS machine hence the slow application loading speed from the launch agent in the video
+# ⚠️ MacOS environment was tested on a 1 core 2 thread (Intel Celeron 3965U equivalent- used in Ultra-low-end laptops and small form-factor PCs) hence the slow application loading speed from the launch agent in the video
 # For better performance please use a MacOS machine with more cores 
 ✅  Launches Agent
 
