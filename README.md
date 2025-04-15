@@ -24,3 +24,8 @@ cd ~/Library/LaunchAgents
 2. Create the LaunchAgent .plist
 
 nano ~/Library/LaunchAgents/com.agentlock.start.plist
+
+
+3. Load the LaunchAgent
+
+launchctl load ~/Library/LaunchAgents/com.agentlock.start.plist
