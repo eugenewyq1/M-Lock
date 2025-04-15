@@ -1,8 +1,6 @@
 # MacOS-Agent-App-lock
-<video src="MacOS-Agent-App-lock
-/MacOS-Agent-App-lock-Demo.mp4" controls autoplay loop muted width="600">
-Your browser does not support the video tag.
-</video>
+Demo Video:
+https://github.com/user-attachments/assets/ace4af05-0f40-4d62-bb80-0d0ee7fb3fe9
 
 ✅  Launches Agent
 
