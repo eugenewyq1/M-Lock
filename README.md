@@ -8,7 +8,7 @@
 
 ✅  Prompts for a password to unlock
 
-x  Prevents closing or minimizing the password panel (work in progress)
+✅ Monitors and kills all other applications, keeping only Agent-TARS running (optional: Updated with App_lock2.swift)
 
 1. Use Activity Monitor to find PID
 Open Activity Monitor from:
