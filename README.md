@@ -28,11 +28,11 @@ Applications → Utilities → Activity Monitor
 ```bash
 See the exact Process ID (PID)
 ```
-1.2 Get the Process Name from PID
+1.1 Get the Process Name from PID
  ```bash
 ps -p 693 -o comm=
 ```
-1.3 Path name should match the following:
+1.2 Path name should match the following:
  ```bash
 /Applications/Agent TARS.app/Contents/MacOS/Agent-TARS
 ```
