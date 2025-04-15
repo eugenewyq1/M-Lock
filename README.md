@@ -1,10 +1,16 @@
 # MacOS-Agent-App-lock
 
-Launches Agent-TARS
-Monitors if it’s frontmost
-Enters kiosk mode: disables force quit, Cmd+Tab, dock, and menu bar
-Prompts for a password to unlock
-Prevents closing or minimizing the password panel
+1. Launches Agent-TARS
+
+2. Monitors if it’s frontmost
+
+3. Enters kiosk mode: disables force quit, Cmd+Tab, dock, and menu bar
+
+4. Prompts for a password to unlock
+
+5. Prevents closing or minimizing the password panel
+
+
 
 Create a LaunchAgent
 1. Go to Your LaunchAgents Folder
