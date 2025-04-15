@@ -8,6 +8,8 @@
 
 ✅  Prompts for a password to unlock
 
+✅ locking Swift script runs automatically after login
+
 ✅ Monitors and kills all other applications, keeping only Agent-TARS running (optional: Updated with App_lock2.swift)
 
 1. Use Activity Monitor to find PID
@@ -57,4 +59,11 @@ nano ~/Library/LaunchAgents/com.agentlock.start.plist
 3.3 Load the LaunchAgent
 ```bash
 launchctl load ~/Library/LaunchAgents/com.agentlock.start.plist
+```
+To go full kiosk and hide Dock and Menu Bar
+```bash
+defaults write com.apple.dock autohide -bool true; killall Dock
+```
+```bash
+defaults write NSGlobalDomain _HIHideMenuBar -bool true; killall SystemUIServer
 ```
