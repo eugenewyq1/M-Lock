@@ -21,8 +21,9 @@ chmod +x ~/app_lock.swift
 2. Create a LaunchAgent
 2.1 Go to Your LaunchAgents Folder
 In Terminal:
-
+```bash
 mkdir -p ~/Library/LaunchAgents
+```
 ```bash
 cd ~/Library/LaunchAgents
 ```
