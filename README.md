@@ -10,11 +10,15 @@
 
 x  Prevents closing or minimizing the password panel (work in progress)
 
-1. Save the Swift script you were given to your home folder:
+1. Install Command Line Tools for Swift compiler and macOS frameworks:
+```bash
+xcode-select --install
+```
+1.2. Save the Swift script you were given to your home folder:
 ```bash
 nano ~/app_lock.swift
 ```
-1.2 Make it executable:
+1.3 Make it executable:
 ```bash
 chmod +x ~/app_lock.swift
 ```
