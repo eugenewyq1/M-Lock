@@ -15,23 +15,24 @@
 nano ~/app_lock.swift
 ```
 1.2 Make it executable:
-
+```bash
 chmod +x ~/app_lock.swift
-
+```
 2. Create a LaunchAgent
 2.1 Go to Your LaunchAgents Folder
 In Terminal:
 
 mkdir -p ~/Library/LaunchAgents
-
+```bash
 cd ~/Library/LaunchAgents
-
+```
 
 2.2 Create the LaunchAgent .plist
-
+```bash
 nano ~/Library/LaunchAgents/com.agentlock.start.plist
-
+```
 
 2.3 Load the LaunchAgent
-
+```bash
 launchctl load ~/Library/LaunchAgents/com.agentlock.start.plist
+```
