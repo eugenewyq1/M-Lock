@@ -9,8 +9,9 @@
 ✅  Prompts for a password to unlock
 
 ✅  Prevents closing or minimizing the password panel
-.
-.
+
+
+
 Create a LaunchAgent
 1. Go to Your LaunchAgents Folder
 In Terminal:
