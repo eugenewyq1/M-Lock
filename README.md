@@ -4,26 +4,42 @@
 
 ✅  Monitors if it’s frontmost
 
-✅  Enters kiosk mode: disables force quit, Cmd+Tab, dock, and menu bar
+✅  Enters kiosk mode: disables force quit, Cmd+Tab, dock, and menu bar and prevents minimizing/closing/exiting the app
 
 ✅  Prompts for a password to unlock
 
 x  Prevents closing or minimizing the password panel (work in progress)
 
-1. Install Command Line Tools for Swift compiler and macOS frameworks:
+1. Use Activity Monitor to find PID
+Open Activity Monitor from:
+```bash
+Applications → Utilities → Activity Monitor
+```
+```bash
+See the exact Process ID (PID)
+```
+1.2 Get the Process Name from PID
+ ```bash
+ps -p 693 -o comm=
+```
+1.3 Path name should match the following:
+ ```bash
+/Applications/Agent TARS.app/Contents/MacOS/Agent-TARS
+```
+2. Install Command Line Tools for Swift compiler and macOS frameworks:
 ```bash
 xcode-select --install
 ```
-1.2. Save the Swift script you were given to your home folder:
+2.1. Save the Swift script you were given to your home folder:
 ```bash
 nano ~/app_lock.swift
 ```
-1.3 Make it executable:
+2.2 Make it executable:
 ```bash
 chmod +x ~/app_lock.swift
 ```
-2. Create a LaunchAgent
-2.1 Go to Your LaunchAgents Folder
+3. Create a LaunchAgent
+3.1 Go to Your LaunchAgents Folder
 In Terminal:
 ```bash
 mkdir -p ~/Library/LaunchAgents
@@ -32,12 +48,12 @@ mkdir -p ~/Library/LaunchAgents
 cd ~/Library/LaunchAgents
 ```
 
-2.2 Create the LaunchAgent .plist
+3.2 Create the LaunchAgent .plist
 ```bash
 nano ~/Library/LaunchAgents/com.agentlock.start.plist
 ```
 
-2.3 Load the LaunchAgent
+3.3 Load the LaunchAgent
 ```bash
 launchctl load ~/Library/LaunchAgents/com.agentlock.start.plist
 ```
