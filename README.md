@@ -11,9 +11,9 @@
 ✅  Prevents closing or minimizing the password panel
 
 1. Save the Swift script you were given to your home folder:
-
+```bash
 nano ~/app_lock.swift
-
+'''
 1.2 Make it executable:
 
 chmod +x ~/app_lock.swift
