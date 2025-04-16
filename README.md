@@ -18,7 +18,6 @@ First MacOS-Agent-App-lock powered by swift®
 
 ✅ locking Swift script runs automatically after login
 
-✅ Monitors and kills all other applications, keeping only Agent-TARS running
 
 1. Use Activity Monitor to find PID
 Open Activity Monitor from:
