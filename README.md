@@ -38,7 +38,8 @@ Automatic Login: Select your user account
 
 Enter your user password
 ```
-Go to accessbilities and allow terminal, agent tars permissions
+Go to accessbilities and allow terminal, swift, agent tars permissions
+
 1. Use Activity Monitor to find PID
 Open Activity Monitor from:
 ```bash
