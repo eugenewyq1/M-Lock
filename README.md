@@ -3,6 +3,16 @@ https://github.com/user-attachments/assets/99c4c52f-a317-43cc-870f-202d04851c51
 # M-Lock
 First MacOS-Agent-App-lock powered by swift®
 
+✅  Launches Agent
+
+✅  Monitors if it’s frontmost
+
+✅  Enters kiosk mode: disables force quit, Cmd+Tab, dock, and menu bar and prevents minimizing/closing/exiting the app
+
+✅  Prompts for a password to unlock
+
+✅ locking Swift script runs automatically after login
+
 # ⚠️ kazel please read: MacOS environment was tested on a 1 core 2 thread CPU (Intel Celeron 3965U equivalent- used in Ultra-low-end laptops and small form-factor PCs) hence the slow application loading speed from the launch agent in the video
 # For better performance please use a MacOS machine with more cores 
 Set automatic login on MacOS
@@ -28,17 +38,6 @@ Automatic Login: Select your user account
 
 Enter your user password
 ```
-
-✅  Launches Agent
-
-✅  Monitors if it’s frontmost
-
-✅  Enters kiosk mode: disables force quit, Cmd+Tab, dock, and menu bar and prevents minimizing/closing/exiting the app
-
-✅  Prompts for a password to unlock
-
-✅ locking Swift script runs automatically after login
-
 
 1. Use Activity Monitor to find PID
 Open Activity Monitor from:
