@@ -18,7 +18,7 @@ First MacOS-Agent-App-lock powered by swift®
 
 ✅ locking Swift script runs automatically after login
 
-✅ Monitors and kills all other applications, keeping only Agent-TARS running (optional: Updated with App_lock2.swift)
+✅ Monitors and kills all other applications, keeping only Agent-TARS running
 
 1. Use Activity Monitor to find PID
 Open Activity Monitor from:
@@ -70,10 +70,18 @@ Replace YOUR_USERNAME with your actual macOS username
 ```bash
 launchctl load ~/Library/LaunchAgents/com.agentlock.start.plist
 ```
-To go full kiosk and hide Dock and Menu Bar
+Troubleshooting:
+
+when encountering the following:
 ```bash
-defaults write com.apple.dock autohide -bool true; killall Dock
+/Users/test/app_lock.swift:67:1: error: insufficient indentation of line in multi-line string literal
+true
+^
+/Users/test/app_lock.swift:71:1: note: should match space here
+        """
+^
+/Users/test/app_lock.swift:67:1: note: change indentation of this line to match closing delimiter
+true
+^
 ```
-```bash
-defaults write NSGlobalDomain _HIHideMenuBar -bool true; killall SystemUIServer
-```
+the issue is at maximizeAgentWindow() function
