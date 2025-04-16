@@ -39,6 +39,7 @@ class LockAppDelegate: NSObject, NSApplicationDelegate {
         NSApp.setActivationPolicy(.accessory)
         NSApp.presentationOptions = [
             .hideDock,
+            .hideMenuBar,
             .disableForceQuit,
             .disableHideApplication,
             .disableProcessSwitching,
