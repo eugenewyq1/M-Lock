@@ -66,6 +66,11 @@ Replace YOUR_USERNAME with your actual macOS username
 ```bash
 launchctl load ~/Library/LaunchAgents/com.agentlock.start.plist
 ```
+Run Script:
+```bash
+swift ~/app_lock.swift
+```
+
 Troubleshooting:
 
 when encountering the following:
