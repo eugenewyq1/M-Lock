@@ -5,6 +5,30 @@ First MacOS-Agent-App-lock powered by swift®
 
 # ⚠️ kazel please read: MacOS environment was tested on a 1 core 2 thread CPU (Intel Celeron 3965U equivalent- used in Ultra-low-end laptops and small form-factor PCs) hence the slow application loading speed from the launch agent in the video
 # For better performance please use a MacOS machine with more cores 
+Set automatic login on MacOS
+```bash
+Disable FileVault first
+```
+```bash
+Open System Settings
+```
+```bash
+Go to Users & Groups
+```
+```bash
+Click the Lock icon to authenticate as admin
+```
+```bash
+Click Login Option
+```
+```bash
+Set:
+
+Automatic Login: Select your user account
+
+Enter your user password
+```
+
 ✅  Launches Agent
 
 ✅  Monitors if it’s frontmost
