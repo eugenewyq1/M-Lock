@@ -9,7 +9,7 @@ class LockAppDelegate: NSObject, NSApplicationDelegate {
     var monitorTimer: Timer?
     let agentPath = "/Applications/Agent TARS.app"
     let agentProcessName = "Agent TARS"
-    let correctPassword = "letmein"
+    let correctPassword = "password"
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         launchAgentIfNotRunning()
